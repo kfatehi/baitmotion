@@ -2,9 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     motion-redgreen (0.1.0)
+    rake (10.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   motion-redgreen
+  rake
