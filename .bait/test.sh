@@ -9,7 +9,7 @@ pwd
 
 if [[ -f ./Gemfile ]]; then
   echo "Gemfile exists -- bundling"
-  bundle
+  bundle install
   bundle exec rake spec
 else
   rake spec
