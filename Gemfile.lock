@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     motion-redgreen (0.1.0)
+    motion-specwrap (1.0.0)
     rake (10.1.0)
 
 PLATFORMS
@@ -9,4 +10,5 @@ PLATFORMS
 
 DEPENDENCIES
   motion-redgreen
+  motion-specwrap
   rake
