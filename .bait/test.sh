@@ -5,6 +5,8 @@ cd $project_dir
 
 rvm info
 
+pwd
+
 if [[ -f ./Gemfile ]]; then
   echo "Gemfile exists -- bundling"
   bundle
