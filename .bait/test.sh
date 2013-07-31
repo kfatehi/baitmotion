@@ -3,6 +3,8 @@ bait_dir=$(dirname $0)
 project_dir="$bait_dir/.."
 cd $project_dir
 
+rvm info
+
 if [[ -f ./Gemfile ]]; then
   echo "Gemfile exists -- bundling"
   bundle
